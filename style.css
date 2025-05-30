@@ -1,0 +1,123 @@
+body{
+    color: #fff !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    padding: 0 !important;
+    font-weight: bold !important;
+}
+.wrapper{
+    padding: 0 5px !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 20px !important;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #fed700 !important;
+}
+#toggler-icon{
+    font-size: 30px !important;
+}
+
+.top-header{
+    h1{
+        font-weight: bold !important;
+        span{
+           color: #fed700 !important; 
+        }
+    }
+    p{
+        line-height: 1.7rem !important;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.btn-group{
+    a{
+        border-radius: 30px !important;
+        margin-right: 10px;
+        border: 2px solid #fed700;
+        padding: 15px 20px ;
+    }
+}
+.social{
+    padding: 20px 0px 0 5px;
+}
+.social i{
+  color : #e5e5e5;
+  font-size: 25px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.social i:hover{
+  color:#fed700;
+  transform: rotate(360deg);
+}
+.about{
+    h1{
+        font-weight: bold;
+        span{
+             color:#fed700;
+        }   
+    }
+    ul li{
+        padding: 10px 0;
+    }
+}
+
+.projects{
+    h1{
+        font-weight: bold !important;
+        span{
+           color: #fed700 !important; 
+        }
+    }
+}
+.skillset{
+    h1{
+        font-weight: bold !important;
+        span{
+           color: #fed700 !important; 
+        }
+    }
+}
+
+.tech-icons {
+    border: 1.7px solid #fed700 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px 2px #fed700 !important;
+    display: table !important;
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 10px !important;
+    text-align: center !important;
+    transition: all .4s ease 0s !important;
+    vertical-align: middle !important;
+}
+.tech-icons:hover{
+    border: 2.2px solid #fed700 !important;
+    overflow: hidden !important;
+    transform: scale(1.05) !important;
+}
+@media (max-width: 768px) {
+  .nav-link{
+        font-size: 15px !important;
+        padding: 4px 0 !important;
+    }
+    #top-header img{
+        max-height: 300px;
+    }
+    .navbar-nav{
+        border: 1px solid;
+        padding-left: 5px !important;
+    }
+}
