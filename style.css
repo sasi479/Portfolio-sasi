@@ -9,6 +9,7 @@ body{
     font-size: 30px !important;
     padding: 0 !important;
     font-weight: bold !important;
+    color: #fed700 !important;
 }
 .wrapper{
     padding: 0 5px !important;
@@ -102,12 +103,42 @@ body{
     text-align: center !important;
     transition: all .4s ease 0s !important;
     vertical-align: middle !important;
+    span{
+        font-size: 12px;
+        display: block;
+    }
 }
 .tech-icons:hover{
     border: 2.2px solid #fed700 !important;
     overflow: hidden !important;
     transform: scale(1.05) !important;
 }
+
+.projects{
+    margin-bottom: 50px;
+}
+
+.project {
+    border: 1.7px solid #fed700 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px 2px #fed700 !important;
+    display: table !important;
+    margin: 15px !important;
+    opacity: .93 !important;
+    overflow: hidden !important;
+    padding: 15px !important;
+    text-align: center !important;
+    transition: all .4s ease 0s !important;
+    vertical-align: middle !important;
+    h4{
+        font-weight: bold;
+    }
+    p{
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
 @media (max-width: 768px) {
   .nav-link{
         font-size: 15px !important;
@@ -117,7 +148,7 @@ body{
         max-height: 300px;
     }
     .navbar-nav{
-        border: 1px solid;
+        box-shadow: 0 0 5px 2px #fed700 !important;
         padding-left: 5px !important;
     }
 }
