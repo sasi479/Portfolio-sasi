@@ -1,9 +1,13 @@
 body{
     color: #fff !important;
+    background: #796b68 !important;
 }
-
+.navbar-toggler{
+    border: none !important;
+}
 .navbar-toggler:focus{
     box-shadow: none !important;
+    border: none !important;
 }
 .navbar-brand{
     font-size: 30px !important;
@@ -13,6 +17,7 @@ body{
 }
 .wrapper{
     padding: 0 5px !important;
+    position: relative;
 }
 .nav-link{
     color: #fff !important;
@@ -23,6 +28,10 @@ body{
 }
 #toggler-icon{
     font-size: 30px !important;
+}
+.sticky-top{
+    background: #796b68;
+    padding-left: 10px !important;
 }
 
 .top-header{
@@ -46,6 +55,11 @@ body{
         margin-right: 10px;
         border: 2px solid #fed700;
         padding: 15px 20px ;
+        background: none !important;
+    }
+    a:hover, a:focus{
+        color: #fed700;
+        border: 2px solid #fed700 !important;
     }
 }
 .social{
@@ -146,6 +160,8 @@ body{
     }
     #top-header img{
         max-height: 300px;
+        display: block;
+        margin:0 auto;
     }
     .navbar-nav{
         box-shadow: 0 0 5px 2px #fed700 !important;

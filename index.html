@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-dark bg-gradient">
-        <div class=" wrapper container-lg ">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <a class="navbar-brand" href="#">ST</a>
+    <div class="container-fluid">
+        <div id ="home" class=" wrapper container-lg ">
+            <nav id="navbar" class=" sticky-top navbar navbar-expand-md ">
+                <div class="navbar-brand">ST</div>
                 <!-- Toggler/collapsing button for mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
                     <i class="fa-solid fa-bars text-white" id="toggler-icon"></i>
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">Home</a>
+                            <a class="nav-link " href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -67,15 +67,10 @@
             <div id="about" class="about">
                 <h1 class="display-2 ">Meet the <span>builder</span></h1>
                 <ul>
-                    <li>I am currently pursuing my pre-final year Bachelor's Degree in Electronics and Communication
-                        Engineering.I have built a solid foundation in software development, particularly in areas such
-                        as Java, SQL, Git, and GitHub.</li>
-                    <li> My expertise in these areas allows me to approach projects with confidence and deliver
-                        high-quality results.I have a strong belief in the value of continuous learning and staying
-                        adaptable in the ever-evolving world of software engineering.</li>
-                    <li> I actively seek out opportunities to expand my knowledge and skills, embracing new technologies
-                        and approaches.Feel free to explore my work and get in touch if you have any questions or
-                        opportunities to collaborate. </li>
+                    <li>I'm a seasoned Front-End Developer with over 4 years of experience building responsive, user-focused websites—primarily for attorney and law firm clients through the FindLaw platform.</li>
+                    <li> My core expertise lies in HTML, CSS, and modern JavaScript frameworks, with a strong emphasis on performance, accessibility, and cross-device compatibility. At FindLaw, I worked closely with US-based legal clients to translate their unique branding and business goals into highly customized, SEO-friendly web experiences.</li>
+                    <li>From solo builds to team-led rollouts, I’ve contributed to a wide range of attorney websites—helping law firms establish a strong digital presence that builds trust and converts visitors into clients. </li>
+                    <li>I’m passionate about clean design, meaningful interactions, and continuously improving my craft. Whether it’s coding a sleek front-end or solving layout challenges, I thrive on turning ideas into real, usable products.</li>
                 </ul>
             </div>
             <div id="skillset" class="skillset my-5">
@@ -116,16 +111,16 @@
                 <h1 class="display-2 ">My recent <Span>works</Span></h1>
                 <div class="row justify-content-center">
                     <div class="project col-md-5 col-10">
-                        <h4>Portfolio Website</h4>
-                        <p>Created a portfolio website using HTML, CSS, and JavaScript, It serves as a platform to introduce myself, share my projects, and provide information about my education and internship.</p>
+                        <h4>E-commerce Website</h4>
+                        <p>E-commerce is a fully responsive e-commerce platform built with React and Redux Toolkit. The website offers a seamless shopping experience, allowing users to browse products, filter by category, add items to a cart, and complete secure checkout.
                     </div>
                     <div class="project col-md-5 col-10">
                         <h4>Portfolio Website</h4>
-                        <p>Created a portfolio website using HTML, CSS, and JavaScript, It serves as a platform to introduce myself, share my projects, and provide information about my education and internship.</p>
+                        <p>Created a portfolio website using HTML, CSS, and JavaScript, It serves as a platform to introduce myself, share my projects, and provide information about my education and experience.</p>
                     </div>
                 </div>
             </div>
-            <footer class="bg-dark text-white text-center py-3 mt-auto border-top">
+            <footer class="text-white text-center py-3 mt-auto border-top">
                 <p class="mb-0">Thanks for visiting</p>
                 <p class="mb-0">&copy; 2025 Sasi. All rights reserved.</p>
             </footer>
@@ -145,7 +140,6 @@
         const icon = document.getElementById('toggler-icon');
 
         toggler.addEventListener('click', function () {
-            icon.classList.toggle('fa-bars');
             icon.classList.toggle('fa-xmark');
         });
     </script>
